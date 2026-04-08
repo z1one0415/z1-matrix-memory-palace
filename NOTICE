@@ -1,0 +1,39 @@
+Z1 Matrix Memory Palace 2.0
+Copyright (c) 2026
+
+This product includes software components developed by third parties:
+
+1. BAAI/bge‑m3 embedding model
+   - Developed by Beijing Academy of Artificial Intelligence (BAAI)
+   - Licensed under the Apache License, Version 2.0
+   - Source: https://huggingface.co/BAAI/bge‑m3
+   - Used for vector similarity search in the Watchdog component.
+
+2. Sentence‑Transformers library (optional)
+   - Copyright (c) 2019‑present, UKPLab, NVIDIA
+   - Licensed under the Apache License, Version 2.0
+   - Source: https://github.com/UKPLab/sentence‑transformers
+   - Used for loading and running the bge‑m3 model.
+
+3. ChromaDB (optional)
+   - Copyright (c) 2021‑present, ChromaDB, Inc.
+   - Licensed under the Apache License, Version 2.0
+   - Source: https://github.com/chroma‑core/chroma
+   - Used as a lightweight local vector store for the Watchdog index.
+
+The main codebase of Z1 Matrix Memory Palace is licensed under the MIT License (see LICENSE).
+
+--- 
+Apache License 2.0 Summary (for embedded components):
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use these components except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
